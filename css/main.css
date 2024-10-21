@@ -1,0 +1,183 @@
+.main_first--container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_first--section img {
+  width: 600px;
+  height: 900px;
+}
+
+.main_first--title {
+  font-family: "Urbanist";
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+
+.main_first--button {
+  width: 303px;
+  height: 61px;
+  text-align: center;
+  border-radius: 105px;
+  background-color: #ff9429;
+  color: black;
+  border: 0;
+  outline: 0;
+  font-size: 27px;
+  cursor: pointer;
+  font-family: "Urbanist";
+}
+
+.main_second--container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin-right: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_second--cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.main_second--card {
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+.main_second--cards--first_line,
+.main_second--card--second_line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main_second--card--title {
+  font-size: 40px;
+  font-family: "Urbanist";
+  font-weight: 400;
+}
+
+.main_second--card--text {
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 300px;
+  width: 100%;
+  font-family: "Urbanist";
+}
+
+.main_third--section {
+  margin-bottom: 119px;
+}
+
+.main_third--container {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.main_third--title {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Urbanist";
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.main_third--cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_third--card {
+  max-width: 400px;
+  width: 100%;
+  height: 500px;
+}
+
+.main_third--card:first-child {
+  background: rgb(255, 192, 58);
+  background: radial-gradient(
+    circle,
+    rgba(255, 192, 58, 1) 0%,
+    rgba(255, 175, 62, 1) 100%
+  );
+}
+
+.main_third--card:nth-child(2) {
+  background: rgb(255, 140, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 140, 0, 1) 0%,
+    rgba(255, 157, 0, 1) 100%
+  );
+}
+
+.main_third--card:not(:last-child) {
+  margin-right: 20px;
+}
+
+.main_third--card:last-child {
+  background: rgb(255, 132, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 132, 0, 1) 0%,
+    rgba(255, 178, 0, 1) 100%
+  );
+}
+
+.main_third--card--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_third--card--name {
+  font-size: 24px;
+  font-family: "Urbanist";
+  font-weight: 500;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.main_third--card--date {
+  color: #6b6b6b;
+  font-size: 20px;
+  font-family: "Urbanist";
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  justify-content: end;
+}
+
+.main_third--card--text {
+  font-family: "Urbanist";
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: 350;
+  width: 339px;
+}
+
+.main_third--card--star_wrap {
+  background-color: #ffffff;
+  width: 362px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 200px;
+}
